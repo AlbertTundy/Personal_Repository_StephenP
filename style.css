@@ -10,3 +10,6 @@
 .whitetext {
   color: white !important;
 }
+.wraptext {
+  float: left;
+}
