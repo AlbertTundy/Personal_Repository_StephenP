@@ -1,0 +1,12 @@
+.footer {
+  background-color: grey;
+  padding: 20px;
+  color: lightgray;
+  border-top: 8px solid seagreen;
+}
+.navbar-brand {
+  background-color: seagreen;
+}
+.whitetext {
+  color: white !important;
+}
