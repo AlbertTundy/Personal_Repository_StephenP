@@ -1,15 +1,23 @@
-.footer {
-  background-color: grey;
-  padding: 20px;
-  color: lightgray;
-  border-top: 8px solid seagreen;
-}
 .navbar-brand {
   background-color: seagreen;
+}
+body {
+  float: left;
+  background-color: linen;
 }
 .whitetext {
   color: white !important;
 }
 .wraptext {
-  float: left;
+  text-align: left;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  background-color: grey;
+  padding: 20px;
+  color: lightgray;
+  border-top: 8px solid seagreen;
+  width: 100%;
+  text-align: center;
 }
