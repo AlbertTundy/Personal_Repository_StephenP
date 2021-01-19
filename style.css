@@ -1,3 +1,6 @@
+html {
+  position: relative;
+}
 /* background color for part of the navbar. */
 .navbar-brand {
   background-color: seagreen;
@@ -20,7 +23,7 @@
 }
 /* formating to keep the footer in the correct place, colors, and other styles. */
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   background-color: grey;
   padding: 20px;
