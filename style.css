@@ -2,20 +2,31 @@
 .navbar-brand {
   background-color: seagreen;
 }
+.navbar {
+  position: fixed;
+}
 /* text color for "Stephen Pacyga" on the navbar. */
 .whitetext {
   color: white !important;
 }
-
-/* keeps the text left alined without a huge margin and background styles. */
-body {
-  float: left;
-  background-color: linen;
+.container {
+  margin-top: 50px;
 }
 
+/* keeps the text left alined without a huge margin and background styles. */
+.body {
+  background-color: white;
+}
+
+/* contact header color and formatting */
+.greenwriting {
+  color: seagreen;
+  margin-top: 20px;
+  border-bottom: 3px solid black;
+}
 /* formating to keep the footer in the correct place, colors, and other styles. */
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   background-color: grey;
   padding: 20px;
