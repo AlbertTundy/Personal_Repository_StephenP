@@ -9,9 +9,15 @@
 }
 /* keeps the text left alined without a huge margin and background styles. */
 .body {
-  background-color: white;
+  background-color: lightgreen;
 }
-
+.margins {
+  margin-bottom: 100px;
+  margin-top: 50px;
+  background-color: tan;
+  margin-right: 33%;
+  margin-left: 10%;
+}
 /* contact header color and formatting */
 .greenwriting {
   color: seagreen;
