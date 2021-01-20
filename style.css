@@ -2,6 +2,10 @@
 .navbar-brand {
   background-color: seagreen;
 }
+/* align the nav bar to the right */
+.flex {
+  flex-direction: row-reverse;
+}
 
 /* text color for "Stephen Pacyga" on the navbar. */
 .whitetext {
@@ -11,6 +15,10 @@
 .body {
   background-color: lightgreen;
 }
+.linkcolor {
+  color: seagreen;
+}
+/* formating for the margins of the body */
 .margins {
   margin-bottom: 100px;
   margin-top: 50px;
